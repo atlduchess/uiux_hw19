@@ -1,0 +1,152 @@
+html{
+    height: 100%;
+ }
+  
+  
+ body{
+    background-color: dimgray;
+    background-image: url(fresh-beautiful-peony-flowers.jpg);
+    background-repeat: no-repeat;  }
+  
+  header {
+  
+    background-color:#e1d6d6;
+    height:118px;
+    margin-top: 70px;
+    text-align:center;
+  }
+  
+  nav {
+  background-color:rgba(0, 0, 0, 0.219);
+    text-align:center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  
+  main{
+     
+        height:400px;
+        text-align: center;
+        padding-top: 80px;
+        padding-left: 230px;
+        padding-right: 230px;
+  
+  
+     }
+  
+  
+    footer {
+         background-color: rgba(0, 0, 0, 0.561);
+           padding-top: 50px;
+           padding-bottom: 50px;
+         }
+  
+  
+  .container {
+  
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1042px;
+    background-color:#fdf7f7;
+  }
+  h1{
+      font-size: 40px;
+      color: black;
+      font-family: fantasy;
+  
+  }
+  
+  p{
+    font: size 18px;
+    color: black;
+    font-family: fantasy;
+  
+  }
+  a{
+      color:black;
+      font-family: fantasy;
+     
+  }
+  
+  nav a{
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+  }
+  
+  footer p{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    padding-top: xs;
+  }
+ 
+  .skills ul{
+    padding:0;
+  }
+  .skills ul li{
+    list-style-type:none;
+    padding-bottom:5px;
+  }
+
+  .skillcards{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .card{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:15px;
+  }
+  .projectbutton{
+   background-color:#fafafa;
+   color:black;
+   border-radius:10px;
+   border:3px solid black;
+   padding: 8px 8px;
+
+  }
+
+  .cardimage{
+    height:200px;
+    width:200px;
+    overflow:hidden;
+    
+  }
+  .work{
+    padding:0 100px;
+  }
+  .skills{
+    padding: 0 100px;
+
+  }
+.backtotop{
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+  @media only screen and (max-width: 600px) {
+    .card, .skillcards {
+      flex-direction: column;
+     }
+     main{
+     
+      height:auto;
+      padding-left: 50px;
+      padding-right: 50px;
+
+
+   }
+.work, .skills {
+  padding: 0 50px;
+}
+
+
+   }
